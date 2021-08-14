@@ -1,6 +1,6 @@
 # React Native Component Snippet
 
-Simply adds the following snippet to VS Code for JS and JSX files.
+Simply adds a snippet that creates a React Native Functional Component with Styles and PropTypes for JS and JSX files.
 
 ## Features
 
