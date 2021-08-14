@@ -7,17 +7,21 @@
 		"vscode": "^1.59.0"
 	},
 	"categories": [
-		"Other"
+		"Snippets"
 	],
 	"activationEvents": [
 		"onCommand:react-native-component-snippet.helloWorld"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
+		"snippets": [
 			{
-				"command": "react-native-component-snippet.helloWorld",
-				"title": "Hello World"
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
 			}
 		]
 	},

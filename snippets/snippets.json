@@ -1,0 +1,32 @@
+{
+    "reactNativeFunctionalExportComponentWithStylesWithPropTypes": {
+        "prefix": "rnfesp",
+        "body": [
+            "import React from 'react';",
+            "import PropTypes from 'prop-types';",
+            "import { StyleSheet, View } from 'react-native';",
+            "",
+            "function ${1:${TM_FILENAME_BASE}}() {",
+            "\treturn (",
+            "\t\t<View>",
+            "\t\t\t$0",
+            "\t\t</View>",
+            "\t)",
+            "}",
+            "",
+            "${1:${TM_FILENAME_BASE}}.propTypes = {",
+            "",
+            "}",
+            "${1:${TM_FILENAME_BASE}}.defaultProps = {",
+            "",
+            "}",
+            "",
+            "export default ${1:${TM_FILENAME_BASE}}",
+            "",
+            "const styles = StyleSheet.create({});",
+            "",
+            ""
+        ],
+        "description": "Creates a React Functional Component with ES7 module system with PropTypes"
+    }
+}
